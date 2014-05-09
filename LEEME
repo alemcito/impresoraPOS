@@ -1,0 +1,20 @@
+Imprimir con Ticketeras (POS)
+=============================
+por: Alem Bar Villalobos alemcito@gmail.com
+=============================
+1) Ingresar a consola linux
+2) Ingresar a escpos
+3) Instalar las librerias de impresion:
++++3.1)sudo python setup.py build
++++3.1)sudo python setup.py install
+4) Instalar pip python:
++++4.1) sudo apt-get install python-pip
+5) Instalar dependencias
++++5.1) sudo pip install qrcode
++++5.1) sudo pip install pyusb
+6) ejecutar script de impresion:
++++6.1) sudo python imprimir.py
+7) Disfrutar
+
+Lo que hace el script es escanear los puertos usb y a las impresoras que sean  
+POS mandara a imprimir.

@@ -1,0 +1,186 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  33816  2800 ?        Ss   14:14   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    14:14   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    14:14   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   14:14   0:00 [kworker/0:0H]
+root         7  0.1  0.0      0     0 ?        S    14:14   0:08 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    14:14   0:04 [rcuos/0]
+root         9  0.0  0.0      0     0 ?        S    14:14   0:04 [rcuos/1]
+root        10  0.0  0.0      0     0 ?        S    14:14   0:00 [rcuos/2]
+root        11  0.0  0.0      0     0 ?        S    14:14   0:00 [rcuos/3]
+root        12  0.0  0.0      0     0 ?        S    14:14   0:00 [rcu_bh]
+root        13  0.0  0.0      0     0 ?        S    14:14   0:00 [rcuob/0]
+root        14  0.0  0.0      0     0 ?        S    14:14   0:00 [rcuob/1]
+root        15  0.0  0.0      0     0 ?        S    14:14   0:00 [rcuob/2]
+root        16  0.0  0.0      0     0 ?        S    14:14   0:00 [rcuob/3]
+root        17  0.0  0.0      0     0 ?        S    14:14   0:00 [migration/0]
+root        18  0.0  0.0      0     0 ?        S    14:14   0:00 [watchdog/0]
+root        19  0.0  0.0      0     0 ?        S    14:14   0:00 [watchdog/1]
+root        20  0.0  0.0      0     0 ?        S    14:14   0:00 [migration/1]
+root        21  0.0  0.0      0     0 ?        S    14:14   0:00 [ksoftirqd/1]
+root        23  0.0  0.0      0     0 ?        S<   14:14   0:00 [kworker/1:0H]
+root        24  0.0  0.0      0     0 ?        S<   14:14   0:00 [khelper]
+root        25  0.0  0.0      0     0 ?        S    14:14   0:00 [kdevtmpfs]
+root        26  0.0  0.0      0     0 ?        S<   14:14   0:00 [netns]
+root        27  0.0  0.0      0     0 ?        S<   14:14   0:00 [writeback]
+root        28  0.0  0.0      0     0 ?        S<   14:14   0:00 [kintegrityd]
+root        29  0.0  0.0      0     0 ?        S<   14:14   0:00 [bioset]
+root        30  0.0  0.0      0     0 ?        S<   14:14   0:00 [kworker/u9:0]
+root        31  0.0  0.0      0     0 ?        S<   14:14   0:00 [kblockd]
+root        32  0.0  0.0      0     0 ?        S<   14:14   0:00 [ata_sff]
+root        33  0.0  0.0      0     0 ?        S    14:14   0:00 [khubd]
+root        34  0.0  0.0      0     0 ?        S<   14:14   0:00 [md]
+root        35  0.0  0.0      0     0 ?        S<   14:14   0:00 [devfreq_wq]
+root        39  0.0  0.0      0     0 ?        S    14:14   0:00 [khungtaskd]
+root        40  0.0  0.0      0     0 ?        S    14:14   0:01 [kswapd0]
+root        41  0.0  0.0      0     0 ?        SN   14:14   0:00 [ksmd]
+root        42  0.0  0.0      0     0 ?        SN   14:14   0:00 [khugepaged]
+root        43  0.0  0.0      0     0 ?        S    14:14   0:00 [fsnotify_mark]
+root        44  0.0  0.0      0     0 ?        S    14:14   0:00 [ecryptfs-kthrea]
+root        45  0.0  0.0      0     0 ?        S<   14:14   0:00 [crypto]
+root        57  0.0  0.0      0     0 ?        S<   14:14   0:00 [kthrotld]
+root        79  0.0  0.0      0     0 ?        S<   14:14   0:00 [deferwq]
+root        80  0.0  0.0      0     0 ?        S<   14:14   0:00 [charger_manager]
+root       119  0.0  0.0      0     0 ?        S    14:14   0:00 [scsi_eh_0]
+root       120  0.0  0.0      0     0 ?        S    14:14   0:00 [scsi_eh_1]
+root       143  0.0  0.0      0     0 ?        S    14:14   0:00 [jbd2/sda4-8]
+root       144  0.0  0.0      0     0 ?        S<   14:14   0:00 [ext4-rsv-conver]
+root       397  0.0  0.0      0     0 ?        S<   14:14   0:00 [kworker/u9:1]
+root       404  0.0  0.0      0     0 ?        S<   14:14   0:00 [kmemstick]
+root       405  0.0  0.0      0     0 ?        S<   14:14   0:00 [ttm_swap]
+root       410  0.0  0.0      0     0 ?        S<   14:14   0:00 [cfg80211]
+root       411  0.0  0.0      0     0 ?        S<   14:14   0:00 [kpsmoused]
+root       539  0.0  0.0  15260   512 ?        S    14:14   0:00 upstart-socket-bridge --daemon
+root       611  0.0  0.0      0     0 ?        S<   14:14   0:00 [hd-audio0]
+root       630  0.0  0.0      0     0 ?        S<   14:14   0:00 [hd-audio1]
+root       672  0.0  0.0      0     0 ?        S    14:14   0:00 [jbd2/sda8-8]
+root       673  0.0  0.0      0     0 ?        S<   14:14   0:00 [ext4-rsv-conver]
+root       703  0.0  0.0      0     0 ?        S    14:14   0:00 [jbd2/sda9-8]
+root       704  0.0  0.0      0     0 ?        S<   14:14   0:00 [ext4-rsv-conver]
+root       739  0.0  0.1 272700  4892 ?        Ss   14:14   0:00 smbd -F
+root       762  0.0  0.0  15276   504 ?        S    14:15   0:00 upstart-file-bridge --daemon
+syslog     778  0.0  0.0 255840   788 ?        Ssl  14:15   0:01 rsyslogd
+message+   783  0.0  0.0  40804  2472 ?        Ss   14:15   0:01 dbus-daemon --system --fork
+root       796  0.0  0.0 330228  2528 ?        Ssl  14:15   0:00 /usr/sbin/ModemManager
+root       807  0.0  0.0  19292   956 ?        Ss   14:15   0:00 /usr/sbin/bluetoothd
+avahi      813  0.0  0.0  32348  1412 ?        S    14:15   0:00 avahi-daemon: running [chatarrita.local]
+avahi      815  0.0  0.0  32224   236 ?        S    14:15   0:00 avahi-daemon: chroot helper
+root       824  0.0  0.0  43544  1432 ?        Ss   14:15   0:00 /lib/systemd/systemd-logind
+root       827  0.0  0.1  77388  3884 ?        Ss   14:15   0:00 /usr/sbin/cupsd -f
+root       830  0.0  0.0      0     0 ?        S<   14:15   0:00 [krfcommd]
+root       857  0.0  0.1 357012  5724 ?        Ssl  14:15   0:01 NetworkManager
+root       862  0.0  0.1 272700  3544 ?        S    14:15   0:00 smbd -F
+colord     871  0.0  0.2 384784  7436 ?        Sl   14:15   0:00 /usr/lib/colord/colord
+root       874  0.0  0.1 296036  4512 ?        Sl   14:15   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1024  0.0  0.0  20012   768 tty4     Ss+  14:15   0:00 /sbin/getty -8 38400 tty4
+root      1032  0.0  0.0  20016   768 tty5     Ss+  14:15   0:00 /sbin/getty -8 38400 tty5
+root      1040  0.0  0.0  30608  1828 ?        Ss   14:15   0:00 /sbin/wpa_supplicant -B -P /run/sendsigs.omit.d/wpasupplicant.pid -u -s -O /var/run/wpa_supplicant
+root      1042  0.0  0.0  20016   768 tty2     Ss+  14:15   0:00 /sbin/getty -8 38400 tty2
+root      1043  0.0  0.0  20016   768 tty3     Ss+  14:15   0:00 /sbin/getty -8 38400 tty3
+root      1046  0.0  0.0  20016   772 tty6     Ss+  14:15   0:00 /sbin/getty -8 38400 tty6
+root      1077  0.0  0.0  61364  1808 ?        Ss   14:15   0:00 /usr/sbin/sshd -D
+root      1105  0.0  0.0  23656   860 ?        Ss   14:15   0:00 cron
+daemon    1106  0.0  0.0  19140   180 ?        Ss   14:15   0:00 atd
+kernoops  1120  0.0  0.0  37144   776 ?        Ss   14:15   0:00 /usr/sbin/kerneloops
+root      1126  0.0  0.1 366372  3988 ?        SLsl 14:15   0:00 lightdm
+root      1135  0.0  0.0   4368   668 ?        Ss   14:15   0:01 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root      1139  0.0  0.0  75484  2536 ?        Ss   14:15   0:00 /usr/sbin/cups-browsed
+whoopsie  1166  0.0  0.1 373788  4148 ?        Ssl  14:15   0:00 whoopsie
+root      1191  4.5  2.6 330096 91460 tty7     Ssl+ 14:15   3:40 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1194  0.0  0.1 302356  4696 ?        Sl   14:15   0:00 /usr/lib/accountsservice/accounts-daemon
+root      1195  0.0  0.0      0     0 ?        S<   14:15   0:00 [iprt]
+root      1254  0.0  0.1  19968  5884 ?        SNs  14:15   0:04 /usr/sbin/preload -s /var/lib/preload/preload.state
+root      1312  0.0  0.0  20016   768 tty1     Ss+  14:15   0:00 /sbin/getty -8 38400 tty1
+nobody    1324  0.0  0.0  35284  1272 ?        S    14:15   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root      2055  0.0  0.0 230516  2992 ?        Ss   14:15   0:00 /usr/sbin/winbindd -F
+root      2059  0.0  0.0 191460  1332 ?        Ss   14:15   0:00 nmbd -D
+root      2061  0.0  0.0 230516  1768 ?        S    14:15   0:00 /usr/sbin/winbindd -F
+root      2075  0.0  0.0      0     0 ?        S    14:15   0:00 [kauditd]
+root      2130  0.0  0.0 174604  3132 ?        Sl   14:15   0:00 lightdm --session-child 12 19
+root      2176  0.0  0.1 239364  4060 ?        Sl   14:15   0:00 /usr/lib/upower/upowerd
+rtkit     2182  0.0  0.0 168916  1052 ?        SNl  14:15   0:00 /usr/lib/rtkit/rtkit-daemon
+zombie    6534  0.0  0.1 691808  4884 ?        Sl   14:18   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+zombie    6536  0.0  0.0  40384  2380 ?        Ss   14:18   0:00 init --user
+zombie    6584  0.0  0.0  24572   332 ?        S    14:18   0:00 dbus-launch --autolaunch=08208881018ea2490630a5195359c2ca --binary-syntax --close-stderr
+zombie    6587  0.0  0.0  39096   220 ?        Ss   14:18   0:00 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+zombie    6598  0.0  0.0  10616     4 ?        Ss   14:18   0:00 ssh-agent
+zombie    6606  0.0  0.0  41392  2728 ?        Ss   14:18   0:01 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-qXg07CS03g
+zombie    6614  0.0  0.0  22336  1056 ?        Ss   14:18   0:00 upstart-event-bridge
+zombie    6618  0.0  0.0  78200  3212 ?        Ss   14:18   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+zombie    6619  0.5  0.2 378720  9372 ?        Ssl  14:18   0:27 /usr/bin/ibus-daemon --daemonize --xim
+zombie    6624  0.0  0.4 644504 14292 ?        Sl   14:18   0:03 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+zombie    6635  0.0  0.1 367756  4280 ?        Sl   14:18   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+zombie    6639  0.0  0.0  39360  1976 ?        S    14:18   0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+zombie    6642  0.0  0.0 125020  3380 ?        Sl   14:18   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+zombie    6648  0.0  0.0 196820  2992 ?        Sl   14:18   0:00 /usr/lib/gvfs/gvfsd
+zombie    6652  0.0  0.1 360424  3884 ?        Sl   14:18   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+zombie    6681  0.0  0.6 780536 21884 ?        Ssl  14:18   0:01 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+zombie    6687  0.0  0.3 668968 11400 ?        Ssl  14:18   0:00 gnome-session --session=gnome
+zombie    6702  0.0  0.0  31104   800 ?        S    14:18   0:00 upstart-file-bridge --daemon --user
+zombie    6705  0.0  0.0  22344   556 ?        S    14:18   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+zombie    6706  0.0  0.0  22440   628 ?        S    14:18   0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+zombie    6740  0.0  0.1 296084  4016 ?        Sl   14:18   0:00 /usr/lib/ibus/ibus-dconf
+zombie    6741  0.0  0.4 575560 16336 ?        Sl   14:18   0:00 /usr/lib/ibus/ibus-ui-gtk3
+zombie    6747  0.0  0.2 397260  8536 ?        Sl   14:18   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+zombie    6776  0.0  0.0  20232   932 ?        S    14:18   0:02 syndaemon -i 1.0 -t -K -R
+zombie    6778  0.0  0.1 178792  6296 ?        Sl   14:18   0:00 /usr/lib/dconf/dconf-service
+zombie    6788  0.1  0.1 220200  4296 ?        Sl   14:18   0:06 /usr/lib/ibus/ibus-engine-simple
+zombie    6801  0.0  0.1 447980  5768 ?        S<l  14:18   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+zombie    6842  4.7  8.1 1934116 279476 ?      Rl   14:18   3:41 /usr/bin/gnome-shell
+zombie    6880  0.0  0.2 517532  8920 ?        Sl   14:18   0:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+zombie    6886  0.0  0.3 1116232 13492 ?       SLl  14:18   0:00 /usr/lib/evolution/evolution-source-registry
+zombie    6890  0.0  0.2 414968  7756 ?        Sl   14:18   0:00 /usr/lib/telepathy/mission-control-5
+zombie    6894  0.0  0.5 643644 17512 ?        Sl   14:18   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+zombie    6896  0.0  0.1 311940  5888 ?        Sl   14:18   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      6902  0.0  0.2 386276  7868 ?        Sl   14:18   0:01 /usr/lib/udisks2/udisksd --no-debug
+zombie    6907  0.0  0.0 124828  3068 ?        Sl   14:18   0:00 /usr/lib/gvfs/gvfsd-metadata
+zombie    6923  0.0  0.0 286144  3300 ?        Sl   14:18   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+zombie    6928  0.0  0.1 212724  3476 ?        Sl   14:18   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+zombie    6932  0.0  0.0 200428  3064 ?        Sl   14:18   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+zombie    6936  0.0  0.0 187824  2980 ?        Sl   14:18   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+zombie    6942  0.0  1.0 1455640 35996 ?       Sl   14:18   0:02 /usr/bin/nautilus --no-default-window
+zombie    6949  0.0  0.1 296056  4516 ?        Sl   14:18   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+zombie    6950  0.6  0.4 473124 16220 ?        Sl   14:18   0:30 /usr/lib/tracker/tracker-store
+zombie    6960  0.0  0.5 846884 17916 ?        Sl   14:18   0:00 nm-applet
+zombie    6962  0.0  0.1 294092  4096 ?        Sl   14:18   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+zombie    6964  1.6  8.9 709844 307828 ?       SNl  14:18   1:17 /usr/lib/tracker/tracker-miner-fs
+zombie    6989  0.0  0.1  58620  3692 ?        S    14:18   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+zombie    7002  0.0  1.6 999572 55628 ?        Sl   14:18   0:00 /usr/lib/evolution/evolution-calendar-factory
+zombie    7040  0.0  1.0 2463944 37476 ?       Sl   14:18   0:01 /usr/bin/signon-ui
+zombie    7060  0.0  0.1 301772  5432 ?        Sl   14:18   0:00 /usr/lib/telepathy/telepathy-logger
+zombie    7095  0.0  0.1 270552  4948 ?        Sl   14:18   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+zombie    7109  0.0  0.1 374500  4444 ?        Sl   14:18   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/1
+zombie    7446  0.0  0.0   4444   648 ?        S    14:18   0:00 sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.7/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+zombie    7448  0.0  0.1 208520  3676 ?        Sl   14:18   0:00 /usr/lib/x86_64-linux-gnu/libproxy/0.4.7/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+zombie    7499  0.1  0.3 547556 12760 ?        Sl   14:18   0:08 zeitgeist-datahub
+zombie    7504  0.0  0.1 298096  5420 ?        Sl   14:18   0:00 /usr/bin/zeitgeist-daemon
+zombie    7524  0.0  0.3 256404 11084 ?        Sl   14:18   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+zombie    7527  0.0  0.0  11412   584 ?        S    14:18   0:00 /bin/cat
+zombie    7541  9.1 13.9 1624932 477532 ?      Sl   14:18   6:57 /usr/lib/firefox/firefox
+zombie    7549  0.0  0.0  16616  1416 ?        S    14:18   0:00 /bin/bash /usr/bin/subl
+zombie    7550  1.1  2.5 1347564 89128 ?       Sl   14:18   0:53 /opt/sublime_text_2/sublime_text --class=sublime-text-2
+zombie    7847  0.0  0.6 769696 22936 ?        Sl   14:18   0:00 /usr/lib/evolution/3.10/evolution-alarm-notify
+zombie    7863  0.0  0.1 287292  3856 ?        Sl   14:18   0:00 /usr/lib/libunity-webapps/unity-webapps-service
+zombie    8202  0.0  0.4 654220 15140 ?        Sl   14:19   0:00 update-notifier
+zombie    8374  0.0  0.4 323748 14556 ?        Sl   14:19   0:04 /usr/lib/firefox/plugin-container /opt/google/talkplugin/libnpgoogletalk.so -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 7541 true plugin
+zombie    8379  0.0  0.3 488764 11504 ?        Sl   14:19   0:02 /opt/google/talkplugin/GoogleTalkPlugin
+zombie    8721  0.0  0.1 385656  4980 ?        Sl   14:20   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+lp        9184  0.0  0.0  63156  2244 ?        S    14:22   0:00 /usr/lib/cups/notifier/dbus dbus:// 
+root      9409  0.1  0.0      0     0 ?        S    14:33   0:04 [kworker/1:2]
+zombie   10240  0.4  1.1 936656 39304 ?        Sl   14:53   0:10 /usr/bin/python /usr/bin/terminator
+zombie   10251  0.0  0.0  14824   820 ?        S    14:53   0:00 gnome-pty-helper
+zombie   10252  0.0  0.0  25528  2368 pts/0    Ss   14:53   0:00 /bin/bash
+zombie   10295  0.0  0.0  25632  2556 pts/2    Ss+  14:54   0:00 /bin/bash
+zombie   10350  0.0  0.0  25348  2212 pts/3    Ss+  14:55   0:00 /bin/bash
+root     10750  0.0  0.0      0     0 ?        S    15:07   0:01 [kworker/u8:2]
+lp       10986  0.0  0.0  63156  2244 ?        S    15:13   0:00 /usr/lib/cups/notifier/dbus dbus:// 
+root     11043  0.0  0.0      0     0 ?        S    15:14   0:00 [kworker/u8:0]
+root     11074  0.1  0.0      0     0 ?        S    15:14   0:01 [kworker/1:0]
+root     11119  0.8  2.0 1429064 69604 pts/3   Sl   15:15   0:09 /opt/sublime_text_2/sublime_text --class=sublime-text-2 /usr/local/lib/python2.7/dist-packages/escpos/printer.py
+root     11314  0.0  0.0      0     0 ?        S    15:22   0:00 [kworker/0:2]
+zombie   11336  0.0  0.0  25344  2264 pts/4    Ss+  15:23   0:00 /bin/bash
+root     11386  0.0  0.0  19472   652 ?        S    15:24   0:00 upstart-udev-bridge --daemon
+root     11389  0.0  0.0  51992  2072 ?        Ss   15:24   0:00 /lib/systemd/systemd-udevd --daemon
+root     11490  0.0  0.0      0     0 ?        S    15:26   0:00 [kworker/u8:1]
+root     11502  0.0  0.0      0     0 ?        S    15:27   0:00 [kworker/0:0]
+zombie   11567  0.0  0.0  22704  1340 pts/0    R+   15:35   0:00 ps aux
